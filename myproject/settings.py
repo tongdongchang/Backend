@@ -128,7 +128,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 CORS_ALLOW_ALL_ORIGINS = True
-STATIC_URL = 'static/'
 AUTH_USER_MODEL = 'music.CustomUser'
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
